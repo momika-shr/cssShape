@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+
+body{
+	margin: 0 auto;
+	padding: 0;
+	background-color:#272822;
+}
+.text{
+	font-family: 'Gugi', cursive;
+	color: white;
+	float: right;
+	font-size: 40px;
+	margin-right: 300px;
+}
+.one, .two {
+	background: linear-gradient(#FFBD09,#FF9F0A);
+	/*background: #386CBB;*/
+	/*#37B9E9*/
+	margin: auto;
+	box-shadow: 5px 5px 10px #050606;
+}
+.one{
+	height: 100px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	width: 800px;
+	border-radius: 10px 50px 10px 10px;
+	font-family: 'Gugi', cursive;
+	line-height: 100px;
+
+}
+
+
+.two{
+	height: 450px;
+	width: 820px;
+	border-radius: 10px 10px 10px 50px;
+	background: linear-gradient(#FF9F0A,#FFBD09);
+	/*box-shadow: 5px 10px 18px #888888;*/
+}
+.newItem{
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid white;
+	padding: 5px 0px;
+	width: 400px;
+
+}
+button{
+padding: 5px 20px;
+margin-left: 15px;
+/*background: transparent;*/
+border-radius: 5px;
+border-style: initial;
+cursor: pointer;
+}
+button:hover {
+    box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.24);
+}
+form{
+	/*background: red;*/
+	padding:20px 0;
+}
+ul li{
+	padding: 10px;
+	list-style-type: none
+
+}
+.checks button{
+float: right;
+}
